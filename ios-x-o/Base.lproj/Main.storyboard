@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_x_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3w-TS-HAN">
+                                <rect key="frame" x="72" y="299" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300518134716" green="0.90819300518134716" blue="0.90819300518134716" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155145126702" green="0.2803895423396679" blue="0.47217049870466321" alpha="0.77030149647887325" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRF-Ok-f18">
+                                <rect key="frame" x="163" y="298" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRT-X1-oGl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzh-WV-AXz">
+                                <rect key="frame" x="163" y="385" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="o">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PB8-AV-cLG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptr-NO-4ie">
+                                <rect key="frame" x="72" y="475" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="221-nE-Yaz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k02-qx-KfI">
+                                <rect key="frame" x="72" y="387" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlY-0z-hE9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ar-aS-WDH">
+                                <rect key="frame" x="257" y="387" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yg5-NR-5l1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uM4-df-cUA">
+                                <rect key="frame" x="256" y="299" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6lk-id-OuU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXr-HN-K6c">
+                                <rect key="frame" x="166" y="475" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jdx-Ec-ulC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s73-Xq-YiA">
+                                <rect key="frame" x="258" y="475" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdG-AX-VIO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dim-MP-rKp">
+                                <rect key="frame" x="72" y="299" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90819300520000001" green="0.90819300520000001" blue="0.90819300520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.13716155150000001" green="0.28038954230000002" blue="0.4721704987" alpha="0.77030149650000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="prass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXP-0K-vgp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x turn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zr3-HP-L4X">
+                                <rect key="frame" x="72" y="187" width="266" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="60"/>
+                                <color key="textColor" red="0.057511830151013875" green="0.24989818541800368" blue="0.42179404145077726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWT-We-Zzd">
+                                <rect key="frame" x="100" y="583" width="152" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="40"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.38269106217616577" green="0.021251020838245049" blue="0.058638168713701408" alpha="0.77030149647887325" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="yKf-rJ-JXP"/>
+                                    <action selector="resttaped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ck-wz-wyV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="b1" destination="dim-MP-rKp" id="z9V-5l-C4a"/>
+                        <outlet property="b2" destination="eRF-Ok-f18" id="uAR-ub-QeK"/>
+                        <outlet property="b3" destination="uM4-df-cUA" id="Q8p-Gg-oJs"/>
+                        <outlet property="b4" destination="k02-qx-KfI" id="YNu-Ay-Cw2"/>
+                        <outlet property="b5" destination="lzh-WV-AXz" id="9Jh-OU-fQ5"/>
+                        <outlet property="b6" destination="9Ar-aS-WDH" id="M9B-kt-ETt"/>
+                        <outlet property="b7" destination="Ptr-NO-4ie" id="HQs-IK-ovd"/>
+                        <outlet property="b8" destination="mXr-HN-K6c" id="sG6-U2-MQU"/>
+                        <outlet property="b9" destination="s73-Xq-YiA" id="WpK-LE-Z8W"/>
+                        <outlet property="turnLebel" destination="Zr3-HP-L4X" id="vtq-lS-3Xz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+</document>
